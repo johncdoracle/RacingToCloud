@@ -19,3 +19,6 @@ Menu principal >Developer Services > Container instances
 ## Configuracion de la instancia
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_instance1.jpg)
 
+En la parte de Networking seleccionamos la VCN y la subred privada en Advance Options ingresamos una IP correspondiente al bloque de la subred privada
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_instance2.jpg)
+
