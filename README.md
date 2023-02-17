@@ -64,5 +64,15 @@ Click en Create
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_1.jpg)
 
+Asignamos el nombre del LB y seleccionamos las opciones de visibilidad publica e IP
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_2.jpg)
+
+Seleccionamos la VCN y la subred publica ceeada durante los prerrequisitos
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_3.jpg)
+
+
+
 
 
