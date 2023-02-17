@@ -37,9 +37,19 @@ Asignamos un nombre al container y seleccionamos la imagen a descargar desde el 
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_2.jpg)
 
-Configuracion de las variables de ambiente necesarias para el despliegue del container
+Configuracion de las variables de ambiente necesarias para el despliegue del container MySQL
+Click en crear another container
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_4.jpg)
+
+El segundo container a crear es el de Wordpress
+Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_5.jpg)
+
+Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_6.jpg)
 
 
 
