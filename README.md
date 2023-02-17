@@ -72,6 +72,19 @@ Seleccionamos la VCN y la subred publica ceeada durante los prerrequisitos
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_3.jpg)
 
+Luego seleccionamos el algoritmo de balanceo del trafico y el protocolo y puerto para el Health Check
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_4.jpg)
+
+Configuramos el listener de tipo HTTP (las peticiones ingresan por el puerto 80)
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_5.jpg)
+
+Activamos los logs del LB
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_6.jpg)
+
+Adicionamos el Backend, este corresponde a la Container Instance
 
 
 
