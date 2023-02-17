@@ -32,7 +32,7 @@ En la parte de Networking seleccionamos la VCN y la subred privada, luego desple
 ### Configuración de los contenedores
 En esta parte vamos a asignar los nombres de los contenedores, para ello seleccionamos las imagenes a utilizar y creamos las variables de ambiente que necesita el contenedor para funcionar adecuadamente. Para el laboratorio vamos a utilizar las imagenes publicas del Docker Hub
 
-El primer container a crear es el de MySQL
+### El primer container a crear es el de MySQL
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_2.jpg)
@@ -42,16 +42,27 @@ Click en crear another container
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_4.jpg)
 
-El segundo container a crear es el de Wordpress
+### El segundo container a crear es el de Wordpress
 Asignamos un nombre al container y seleccionamos la imagen a descargar desde el Docker Hub
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_5.jpg)
 
 Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress
+El valor de la variable WORDPRESS_DB_HOST corresponde a la IP seleccionada durante la creacion del Container Instance en la parte de Networking
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_6.jpg)
 
+Click en Create
 
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_7.jpg)
+
+# 2. Creación del Load Balancer
+
+#### Para acceder de forma publica al servicio de Wordpress es necesario configurar un Load Balancer para recibir el trafico desde internet
+
+### Menu principal > Networking > Load Balancers
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_1.jpg)
 
 
 
