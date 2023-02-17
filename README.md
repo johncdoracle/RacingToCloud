@@ -86,6 +86,10 @@ Activamos los logs del LB
 
 Adicionamos el Backend, este corresponde a la Container Instance
 
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_7.jpg)
 
+El backend corresponde a la IP privada del Container Instance
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_8.jpg)
 
 
