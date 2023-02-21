@@ -94,3 +94,8 @@ El backend corresponde a la IP privada del Container Instance
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_lb_8.jpg)
 
 
+
+
+
+
+
