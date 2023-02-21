@@ -26,8 +26,9 @@ Debemos ingresar la informacion del nombre de la instancia, AD, Shape y capacida
 
 ![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_instance1.jpg)
 
-En la parte de Networking seleccionamos la VCN y la subred privada, luego desplegamos Advance Options e ingresamos una IP correspondiente al bloque de IPs de la subred privada
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_instance2.jpg)
+En la parte de Networking seleccionamos la VCN y la subred privada
+
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_ci_10.jpg)
 
 ### Configuración de los contenedores
 En esta parte vamos a asignar los nombres de los contenedores, para ello seleccionamos las imagenes a utilizar y creamos las variables de ambiente que necesita el contenedor para funcionar adecuadamente. Para el laboratorio vamos a utilizar las imagenes publicas del Docker Hub
@@ -50,7 +51,7 @@ Asignamos un nombre al container y seleccionamos la imagen a descargar desde el 
 Configuracion de las variables de ambiente necesarias para el despliegue del container Wordpress
 El valor de la variable WORDPRESS_DB_HOST corresponde a la IP seleccionada durante la creacion del Container Instance en la parte de Networking
 
-![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_container_6.jpg)
+![](https://github.com/johncdoracle/RacingToCloud/blob/main/images/create_ci_11.jpg)
 
 Click en Create
 
